@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+/* Banner Style */
+.header-style{
+    background-image: url(  /images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    height: 800px;
+}
+.header-element-style{
+    text-align: right;
+    color: azure;
+    padding: 200px 150px 100px 400px;
+}
+.header-title{
+    font-size: 50px;
+    font-weight: 800;
+    padding-left: 400px;
+}
+.header-description{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left:390px ;
+}
+.button-style{
+    font-size: 19px;
+    font-weight: 400px;
+    height: 50px;
+    width: 140px;
+    border: none;
+    border-radius: 6px;
+    color:rgb(7, 123, 173);
+}
