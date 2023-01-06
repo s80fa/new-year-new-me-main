@@ -42,11 +42,11 @@
 /*  Failures Section */
 .failures-style{
     display: flex;
-    padding: 100px 150px;
-    gap: 90px;
+    padding: 90px 150px;
+    gap: 80px;
 }
 .failures-style .image-position{
-    width: 500px;
+    width: 540px;
     height: 700px;
 }
 .failures-style .failures{
@@ -61,8 +61,31 @@
 .failures-description{
     font-size: 18px;
     margin-bottom: 15px;
-    color: rgb(83, 82, 82);
+    color: rgb(138, 134, 134);
 }
-.fa-solid fa-check{
-    color:brown
+/* Plan Section */
+.plan-section{
+    text-align: center;
+    padding: 100px 0;
+}
+.plans-no{
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    padding-left: 180px;
+    
+}
+.plans-sector{
+    margin-top: 50px;
+}
+.plans-name{
+    font-size: 26px;
+    font-weight: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.plans-des{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(138, 134, 134);
 }
