@@ -1,10 +1,13 @@
 *{
     margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
 }
 /* Banner Style */
 .header-style{
     background-image: url(  /images/banner/banner3.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
     height: 800px;
@@ -34,4 +37,32 @@
     border: none;
     border-radius: 6px;
     color:rgb(7, 123, 173);
+}
+
+/*  Failures Section */
+.failures-style{
+    display: flex;
+    padding: 100px 150px;
+    gap: 90px;
+}
+.failures-style .image-position{
+    width: 500px;
+    height: 700px;
+}
+.failures-style .failures{
+    padding-top: 250px;
+    padding-right: 100px;
+}
+.failures-title{
+    font-size: 36px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.failures-description{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: rgb(83, 82, 82);
+}
+.fa-solid fa-check{
+    color:brown
 }
