@@ -63,6 +63,9 @@
     margin-bottom: 15px;
     color: rgb(138, 134, 134);
 }
+.icon-color{
+    color: rgb(25, 163, 23);
+}
 /* Plan Section style */
 .plan-section{
     text-align: center;
@@ -135,6 +138,7 @@
     font-size: 18px;
     height: 64px;
     width: 250px;
+    background-color: rgb(27, 26, 26);
     border-color: azure;
     border-radius: 7px;
     text-decoration-color: azure;
@@ -152,3 +156,4 @@
     color:azure
    
 }
+
