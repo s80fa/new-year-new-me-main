@@ -6,7 +6,7 @@
 }
 /* Banner Style style */
 .header-style{
-    background-image: url(  /images/banner/banner3.png);
+    background-image: url(../images/banner/banner3.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
@@ -95,7 +95,7 @@
 
 /* Gradient section style */
 .gradient{
-    background-image: url(  /images/watch.png) ;
+    background-image: url(../images/watch.png) ;
     background-repeat: no-repeat;
     background-size: contain;
     height: 300px;
