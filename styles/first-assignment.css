@@ -1,151 +1,173 @@
-*{
+* {
     margin: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* Banner Style style */
-.header-style{
+
+/* Banner Style styles */
+.header-style {
     background-image: url(../images/banner/banner3.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
     height: 800px;
 }
-.header-element-style{
+
+.header-element-style {
     text-align: right;
     color: azure;
     padding: 200px 150px 100px 400px;
 }
-.header-title{
+
+.header-title {
     font-size: 50px;
     font-weight: 800;
     padding-left: 400px;
 }
-.header-description{
+
+.header-description {
     font-size: 18px;
     font-weight: 500;
     margin-top: 20px;
     margin-bottom: 30px;
-    padding-left:390px ;
+    padding-left: 390px;
 }
-.button-style{
+
+.button-style {
     font-size: 19px;
     font-weight: 600px;
     height: 60px;
     width: 150px;
     border: none;
     border-radius: 6px;
-    color:rgb(4, 119, 177);
+    color: rgb(4, 119, 177);
 }
 
-/*  Failures Section style */
-.failures-style{
+/*  Failures Section styles */
+.failures-style {
     display: flex;
     padding: 90px 150px;
     gap: 80px;
 }
-.failures-style .image-position{
+
+.failures-style .image-position {
     width: 540px;
     height: 700px;
 }
-.failures-style .failures{
+
+.failures-style .failures {
     padding-top: 250px;
     padding-right: 100px;
 }
-.failures-title{
+
+.failures-title {
     font-size: 36px;
     font-weight: 700px;
     margin-bottom: 20px;
 }
-.failures-description{
+
+.failures-description {
     font-size: 18px;
     margin-bottom: 15px;
     color: rgb(138, 134, 134);
 }
-.icon-color{
+
+.icon-color {
     color: rgb(25, 163, 23);
 }
-/* Plan Section style */
-.plan-section{
+
+/* Plan Section styles */
+.plan-section {
     text-align: center;
     padding: 100px 0;
 }
-.plans-no{
+
+.plans-no {
     display: flex;
     text-align: center;
     gap: 100px;
     padding-left: 180px;
-    
+
 }
-.plans-sector{
+
+.plans-sector {
     margin-top: 50px;
 }
-.plans-name{
+
+.plans-name {
     font-size: 26px;
     font-weight: 600px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.plans-des{
+
+.plans-des {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(138, 134, 134);
 }
 
-/* Gradient section style */
-.gradient{
-    background-image: url(../images/watch.png) ;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 300px;
+/* Gradient section styles */
+
+.gradient-section {
+    background-image: linear-gradient(to right, #105ea9, rgba(248, 249, 251, 0)), url(../images/watch.png);
+    margin: 0 120px 100px 120px;
     width: 1140px;
+    height: 300px;
+    background-repeat: no-repeat;
     background-position: center;
-    padding-left: 250px;
-    margin-bottom: 100px;
-    margin-top: 30px;
-    
+    border-radius: 10px;
 }
-.gradient-title{
+
+.gradient-title {
     text-align: left;
     color: aliceblue;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600px;
     padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 500px;
     margin-bottom: 20px;
-    padding-right: 600px;
 }
+
+.gradient-section .button-style {
+    margin-left: 70px;
+}
+
 /* footer section styles */
-.footer-style{
+.footer-style {
     display: flex;
     padding: 120px;
-    background-color:rgb(27, 26, 26);
+    background-color: rgb(27, 26, 26);
     gap: 200px
 }
-.social-title{
+
+.social-title {
     font-size: 40px;
     font-weight: 800;
-    color: azure;
+    color: white;
     margin-bottom: 25px;
 }
-.social-des{
+
+.social-des {
     font-size: 18px;
     font-style: normal;
-    color: azure;
+    color: white;
     padding-right: 100px;
 }
-.input-style{
+
+.input-style {
     font-size: 18px;
     height: 64px;
     width: 250px;
     background-color: rgb(27, 26, 26);
-    border-color: azure;
+    border-color: white;
     border-radius: 7px;
-    text-decoration-color: azure;
+    text-decoration-color: white;
     padding-left: 20px;
     margin-bottom: 25px;
 }
-.btn-last{
+
+.btn-last {
     font-size: 19px;
     font-weight: 600px;
     height: 60px;
@@ -153,7 +175,5 @@
     border: none;
     border-radius: 6px;
     background-color: rgb(4, 119, 177);
-    color:azure
-   
+    color: white
 }
-
