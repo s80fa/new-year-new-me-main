@@ -112,3 +112,43 @@
     margin-bottom: 20px;
     padding-right: 600px;
 }
+/* footer section styles */
+.footer-style{
+    display: flex;
+    padding: 120px;
+    background-color:rgb(27, 26, 26);
+    gap: 200px
+}
+.social-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: azure;
+    margin-bottom: 25px;
+}
+.social-des{
+    font-size: 18px;
+    font-style: normal;
+    color: azure;
+    padding-right: 100px;
+}
+.input-style{
+    font-size: 18px;
+    height: 64px;
+    width: 250px;
+    border-color: azure;
+    border-radius: 7px;
+    text-decoration-color: azure;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.btn-last{
+    font-size: 19px;
+    font-weight: 600px;
+    height: 60px;
+    width: 170px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(4, 119, 177);
+    color:azure
+   
+}
